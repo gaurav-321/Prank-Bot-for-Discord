@@ -1,12 +1,72 @@
-# Prank Bot for Discord
-A Discord bot that allows users to prank other users in a Discord server. The bot has two commands: /prank and /stopprank.
+# Prank-Bot-for-Discord
 
-## **Command Overview**
-### **/prank** - Takes in a Discord user as an argument and adds them to a list of users that will be pranked. The bot will then move the user to a designated prank channel and play a audio file called "prank_2.mp3" in the channel. If the prank function has not yet been started, it will also start a loop that will continue to move the user to the prank channel every 10 seconds.
-### **/stopprank** - Takes in a Discord user as an argument and removes them from the list of users being pranked. This will stop the bot from moving the user to the prank channel and playing the audio file.
-## **Requirements**
-### Discord API token in a .env file as the DISCORD_TOKEN variable
-discord.py and dotenv Python modules
-### FFmpeg installed with the path to the ffmpeg.exe file specified in the code
-## Running the Bot
-To run the bot, simply execute the Python script on your machine. The bot will automatically connect to Discord and start listening for commands. You can then use the /prank and /stopprank commands in a Discord server where the bot is a member to prank other users.
+🚀 **Project Title:** Prank-Bot-for-Discord 🎉
+
+✨ **Description:** Prank-Bot-for-Discord is a Python-based Discord bot designed to allow users to prank others within a Discord server using two commands: `/prank` and `/stopprank`. This bot provides an engaging way for members to interact in a fun and controlled manner, promoting camaraderie and creativity.
+
+🚀 **Features:**
+- 🎉 `/prank`: Adds a user to the prank list, moves them to a designated channel, and plays an audio file.
+- 🏃‍♂️ `/stopprank`: Removes a user from the prank list and stops the pranking process.
+- 🔧 Easy setup and configuration using environment variables.
+- 🎶 Plays audio files during pranks.
+
+🛠️ **Installation:**
+To get started with Prank-Bot-for-Discord, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/gag3301v/Prank-Bot-for-Discord.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```bash
+    cd Prank-Bot-for-Discord
+    ```
+
+3. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up environment variables:**
+    Create a `.env` file in the root directory and add your Discord bot token:
+    ```
+    DISCORD_TOKEN=your_discord_bot_token_here
+    AUDIO_FILE_PATH=path_to_your_audio_file.mp3
+    ```
+
+📦 **Usage:**
+Here’s how to use Prank-Bot-for-Discord:
+
+- **To start pranking a user:**
+  ```bash
+  /prank @username
+  ```
+  This command will move the specified user to a designated channel and play an audio file.
+
+- **To stop pranking a user:**
+  ```bash
+  /stopprank @username
+  ```
+  This command will remove the user from the prank list and stop the pranking process.
+
+🔧 **Configuration:**
+Ensure that you have FFmpeg installed on your system as it is required for playing audio files. You can download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html).
+
+🧪 **Tests:**
+Prank-Bot-for-Discord does not include automated tests at the moment, but you can manually test the bot by running it and using the provided commands.
+
+📁 **Project Structure:**
+```
+Prank-Bot-for-Discord/
+├── .env
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+🙌 **Contributing:**
+Contributions are welcome! Please read our [CONTRIBUTING.md](https://github.com/gag3301v/Prank-Bot-for-Discord/blob/main/CONTRIBUTING.md) for details on how to contribute.
+
+📄 **License:**
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gag3301v/Prank-Bot-for-Discord/blob/main/LICENSE) file for more information.
