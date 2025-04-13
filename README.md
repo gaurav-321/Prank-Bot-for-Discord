@@ -1,16 +1,18 @@
 # Prank-Bot-for-Discord
 
-🚀 **Project Title:** Prank-Bot-for-Discord 🎉
+## Description
 
-✨ **Description:** Prank-Bot-for-Discord is a Python-based Discord bot designed to allow users to prank others within a Discord server using two commands: `/prank` and `/stopprank`. This bot provides an engaging way for members to interact in a fun and controlled manner, promoting camaraderie and creativity.
+Prank-Bot-for-Discord is a Python-based Discord bot designed to allow users to prank others within a Discord server using two commands: `/prank` and `/stopprank`. This bot provides an engaging way for members to interact in a fun and controlled manner, promoting camaraderie and creativity.
 
-🚀 **Features:**
+## Features
+
 - 🎉 `/prank`: Adds a user to the prank list, moves them to a designated channel, and plays an audio file.
 - 🏃‍♂️ `/stopprank`: Removes a user from the prank list and stops the pranking process.
 - 🔧 Easy setup and configuration using environment variables.
 - 🎶 Plays audio files during pranks.
 
-🛠️ **Installation:**
+## Installation
+
 To get started with Prank-Bot-for-Discord, follow these steps:
 
 1. **Clone the repository:**
@@ -35,7 +37,8 @@ To get started with Prank-Bot-for-Discord, follow these steps:
     AUDIO_FILE_PATH=path_to_your_audio_file.mp3
     ```
 
-📦 **Usage:**
+## Usage
+
 Here’s how to use Prank-Bot-for-Discord:
 
 - **To start pranking a user:**
@@ -50,13 +53,16 @@ Here’s how to use Prank-Bot-for-Discord:
   ```
   This command will remove the user from the prank list and stop the pranking process.
 
-🔧 **Configuration:**
+## Configuration
+
 Ensure that you have FFmpeg installed on your system as it is required for playing audio files. You can download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html).
 
-🧪 **Tests:**
+## Tests
+
 Prank-Bot-for-Discord does not include automated tests at the moment, but you can manually test the bot by running it and using the provided commands.
 
-📁 **Project Structure:**
+## Project Structure
+
 ```
 Prank-Bot-for-Discord/
 ├── .env
@@ -65,8 +71,10 @@ Prank-Bot-for-Discord/
 └── README.md
 ```
 
-🙌 **Contributing:**
+## Contributing
+
 Contributions are welcome! Please read our [CONTRIBUTING.md](https://github.com/gag3301v/Prank-Bot-for-Discord/blob/main/CONTRIBUTING.md) for details on how to contribute.
 
-📄 **License:**
+## License
+
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/gag3301v/Prank-Bot-for-Discord/blob/main/LICENSE) file for more information.
